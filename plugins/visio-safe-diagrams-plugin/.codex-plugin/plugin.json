@@ -1,0 +1,37 @@
+{
+  "name": "visio-safe-diagrams-plugin",
+  "version": "1.0.0",
+  "description": "Create and repair Visio-safe draw.io and SVG architecture diagrams.",
+  "author": {
+    "name": "balmytaotao-star",
+    "url": "https://github.com/balmytaotao-star"
+  },
+  "homepage": "https://github.com/balmytaotao-star/visio-safe-diagrams",
+  "repository": "https://github.com/balmytaotao-star/visio-safe-diagrams",
+  "license": "MIT",
+  "keywords": [
+    "visio",
+    "drawio",
+    "svg",
+    "diagram",
+    "codex-skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Visio Safe Diagrams",
+    "shortDescription": "Create Visio-safe draw.io and SVG diagrams.",
+    "longDescription": "A Codex plugin and skill for creating, repairing, and validating architecture diagrams that open cleanly in draw.io and import into Microsoft Visio. It includes guidance for avoiding draw.io atob errors, fixed connector routing, and SVG text overflow, plus a deterministic draw.io to SVG converter.",
+    "developerName": "balmytaotao-star",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/balmytaotao-star/visio-safe-diagrams",
+    "defaultPrompt": [
+      "Repair this draw.io/SVG diagram for Visio import.",
+      "Create a Visio-safe architecture diagram.",
+      "Convert this draw.io file to Visio-friendly SVG."
+    ],
+    "brandColor": "#20825D"
+  }
+}

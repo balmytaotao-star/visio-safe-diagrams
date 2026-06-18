@@ -1,0 +1,20 @@
+{
+  "name": "visio-safe-diagrams",
+  "interface": {
+    "displayName": "Visio Safe Diagrams"
+  },
+  "plugins": [
+    {
+      "name": "visio-safe-diagrams-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/visio-safe-diagrams-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

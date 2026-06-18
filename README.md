@@ -9,6 +9,28 @@ This repository packages a small workflow, a Codex skill, and a converter script
 - text overflowing diagram boxes after export
 - draw.io auto-routing moving connector lines away from the intended architecture layout
 
+## Install In Codex
+
+This repository also acts as a Codex plugin marketplace source.
+
+```bash
+codex plugin marketplace add balmytaotao-star/visio-safe-diagrams
+```
+
+Then open the Codex plugin directory, choose the "Visio Safe Diagrams" marketplace source, and install "Visio Safe Diagrams".
+
+If your Codex surface does not support plugin installation yet, copy the skill folder directly:
+
+```text
+skills/visio-drawio-svg-diagrams/
+```
+
+into one of Codex's skill locations, such as:
+
+```text
+~/.agents/skills/
+```
+
 ## Recommended Workflow
 
 Use `.drawio` as the editable source of truth, then generate SVG from that file.
