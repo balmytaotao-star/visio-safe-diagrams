@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<defs>
+<marker id="arrow_0" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M2,2 L10,6 L2,10 z" fill="#2d3a4a"/></marker>
+<marker id="arrow_1" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M2,2 L10,6 L2,10 z" fill="#20825d"/></marker>
+<marker id="arrow_2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M2,2 L10,6 L2,10 z" fill="#cf3f3f"/></marker>
+<marker id="arrow_3" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M2,2 L10,6 L2,10 z" fill="#5765c7"/></marker>
+<marker id="arrow_4" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M2,2 L10,6 L2,10 z" fill="#8a6a20"/></marker>
+</defs>
+<rect width="1600" height="1100" fill="#f7f9fb"/>
+<text x="800.0" y="47.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="28.0" font-weight="700" fill="#162033" text-anchor="middle"><tspan x="800.0" dy="0.0">Beckhoff C6920 + TwinCAT 3.1 控制系统架构图</tspan></text>
+<text x="800.0" y="73.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="15.0" font-weight="400" fill="#566275" text-anchor="middle"><tspan x="800.0" dy="0.0">控制器 / EtherCAT 总线 / 现场设备三层视图</tspan></text>
+<rect x="45.0" y="80.0" width="1510.0" height="290.0" rx="8" fill="#e8f1fb" stroke="#2f6fad" stroke-width="2"/>
+<clipPath id="clip_2"><rect x="53.0" y="86.0" width="1494.0" height="278.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_2)">
+<text x="63.0" y="111.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="20.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="63.0" dy="0.0">第一层级：控制器层</tspan></text>
+</g>
+<rect x="45.0" y="405.0" width="1510.0" height="315.0" rx="8" fill="#eaf7f0" stroke="#27835d" stroke-width="2"/>
+<clipPath id="clip_3"><rect x="53.0" y="411.0" width="1494.0" height="303.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_3)">
+<text x="63.0" y="436.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="20.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="63.0" dy="0.0">第二层级：EtherCAT 总线层</tspan></text>
+</g>
+<rect x="45.0" y="755.0" width="1510.0" height="285.0" rx="8" fill="#fff4e3" stroke="#b87324" stroke-width="2"/>
+<clipPath id="clip_4"><rect x="53.0" y="761.0" width="1494.0" height="273.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_4)">
+<text x="63.0" y="786.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="20.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="63.0" dy="0.0">第三层级：执行器与传感器层（现场设备）</tspan></text>
+</g>
+<line x1="540" y1="205" x2="595" y2="170" stroke="#2d3a4a" stroke-width="2" marker-end="url(#arrow_0)" fill="none"/>
+<text x="568.0" y="176.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#2d3a4a" text-anchor="middle"><tspan x="568.0" dy="0.0">ADS / HMI</tspan></text>
+<line x1="540" y1="240" x2="595" y2="275" stroke="#2d3a4a" stroke-width="2" marker-end="url(#arrow_0)" fill="none"/>
+<text x="568.0" y="269.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#2d3a4a" text-anchor="middle"><tspan x="568.0" dy="0.0">ADS / PV</tspan></text>
+<line x1="840" y1="275" x2="900" y2="230" stroke="#2d3a4a" stroke-width="2" marker-end="url(#arrow_0)" fill="none"/>
+<text x="870.0" y="245.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#2d3a4a" text-anchor="middle"><tspan x="870.0" dy="0.0">记录</tspan></text>
+<line x1="325" y1="315" x2="325" y2="470" stroke="#20825d" stroke-width="4" marker-end="url(#arrow_1)" fill="none"/>
+<text x="365.0" y="399.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#20825d" text-anchor="middle"><tspan x="365.0" dy="0.0">EtherCAT</tspan></text>
+<line x1="220" y1="522" x2="220" y2="570" stroke="#20825d" stroke-width="3" fill="none"/>
+<line x1="455" y1="522" x2="455" y2="570" stroke="#20825d" stroke-width="3" fill="none"/>
+<line x1="710" y1="522" x2="710" y2="570" stroke="#20825d" stroke-width="3" fill="none"/>
+<line x1="930" y1="522" x2="930" y2="570" stroke="#20825d" stroke-width="3" fill="none"/>
+<line x1="1100" y1="522" x2="1100" y2="570" stroke="#20825d" stroke-width="3" fill="none"/>
+<line x1="1270" y1="522" x2="1270" y2="570" stroke="#20825d" stroke-width="3" fill="none"/>
+<line x1="1428" y1="522" x2="1428" y2="570" stroke="#20825d" stroke-width="3" fill="none"/>
+<line x1="430" y1="315" x2="710" y2="560" stroke="#cf3f3f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow_2)" fill="none"/>
+<text x="550.0" y="426.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#cf3f3f" text-anchor="middle"><tspan x="550.0" dy="0.0">FSoE / TwinSAFE</tspan></text>
+<line x1="710" y1="548" x2="220" y2="548" stroke="#cf3f3f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow_2)" fill="none"/>
+<text x="465.0" y="536.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#cf3f3f" text-anchor="middle"><tspan x="465.0" dy="0.0">STO</tspan></text>
+<line x1="710" y1="548" x2="455" y2="548" stroke="#cf3f3f" stroke-width="3" stroke-dasharray="8 8" fill="none"/>
+<line x1="220" y1="670" x2="220" y2="815" stroke="#5765c7" stroke-width="3" marker-end="url(#arrow_3)" fill="none"/>
+<text x="250.0" y="743.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#5765c7" text-anchor="middle"><tspan x="250.0" dy="0.0">电机接口</tspan></text>
+<line x1="455" y1="670" x2="455" y2="815" stroke="#5765c7" stroke-width="3" marker-end="url(#arrow_3)" fill="none"/>
+<text x="490.0" y="743.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#5765c7" text-anchor="middle"><tspan x="490.0" dy="0.0">BISS-C</tspan></text>
+<line x1="710" y1="680" x2="710" y2="815" stroke="#cf3f3f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow_2)" fill="none"/>
+<text x="750.0" y="749.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#cf3f3f" text-anchor="middle"><tspan x="750.0" dy="0.0">安全输入</tspan></text>
+<line x1="930" y1="670" x2="930" y2="815" stroke="#8a6a20" stroke-width="3" marker-end="url(#arrow_4)" fill="none"/>
+<text x="952.0" y="749.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#8a6a20" text-anchor="middle"><tspan x="952.0" dy="0.0">DI</tspan></text>
+<line x1="1100" y1="670" x2="1100" y2="815" stroke="#8a6a20" stroke-width="3" marker-end="url(#arrow_4)" fill="none"/>
+<text x="1142.0" y="749.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#8a6a20" text-anchor="middle"><tspan x="1142.0" dy="0.0">4-20 mA</tspan></text>
+<line x1="1270" y1="670" x2="1270" y2="815" stroke="#8a6a20" stroke-width="3" marker-end="url(#arrow_4)" fill="none"/>
+<text x="1295.0" y="749.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#8a6a20" text-anchor="middle"><tspan x="1295.0" dy="0.0">RTD</tspan></text>
+<line x1="1428" y1="670" x2="1428" y2="815" stroke="#8a6a20" stroke-width="3" marker-end="url(#arrow_4)" fill="none"/>
+<text x="1450.0" y="749.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#8a6a20" text-anchor="middle"><tspan x="1450.0" dy="0.0">DO</tspan></text>
+<line x1="1100" y1="815" x2="710" y2="680" stroke="#cf3f3f" stroke-width="2" stroke-dasharray="8 8" marker-end="url(#arrow_2)" fill="none"/>
+<text x="930.0" y="736.2" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="700" fill="#cf3f3f" text-anchor="middle"><tspan x="930.0" dy="0.0">联锁量</tspan></text>
+<rect x="110.0" y="145.0" width="430.0" height="170.0" rx="8" fill="#ffffff" stroke="#2f6fad" stroke-width="2"/>
+<clipPath id="clip_19"><rect x="118.0" y="151.0" width="414.0" height="158.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_19)">
+<text x="128.0" y="174.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="128.0" dy="0.0">Beckhoff C6920 工控机</tspan></text>
+<text x="128.0" y="198.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="128.0" dy="0.0">TwinCAT 3.1.4024.6</tspan><tspan x="128.0" dy="16.6">PlcTask + Task_Safe 安全任务</tspan><tspan x="128.0" dy="16.6">Windows 环境</tspan></text>
+</g>
+<rect x="595.0" y="130.0" width="245.0" height="80.0" rx="8" fill="#ffffff" stroke="#2f6fad" stroke-width="2"/>
+<clipPath id="clip_20"><rect x="603.0" y="136.0" width="229.0" height="68.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_20)">
+<text x="613.0" y="159.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="613.0" dy="0.0">本地 HMI</tspan></text>
+<text x="613.0" y="183.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="613.0" dy="0.0">TcHmi 操作界面</tspan></text>
+</g>
+<rect x="595.0" y="235.0" width="245.0" height="80.0" rx="8" fill="#ffffff" stroke="#2f6fad" stroke-width="2"/>
+<clipPath id="clip_21"><rect x="603.0" y="241.0" width="229.0" height="68.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_21)">
+<text x="613.0" y="264.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="613.0" dy="0.0">EPICS IOC</tspan></text>
+<text x="613.0" y="288.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="12.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="613.0" dy="0.0">EPICS 通信 / PV 服务</tspan></text>
+</g>
+<rect x="900.0" y="180.0" width="260.0" height="100.0" rx="8" fill="#ffffff" stroke="#2f6fad" stroke-width="2"/>
+<clipPath id="clip_22"><rect x="908.0" y="186.0" width="244.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_22)">
+<text x="918.0" y="209.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="918.0" dy="0.0">倍福本地数据库</tspan></text>
+<text x="918.0" y="233.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="918.0" dy="0.0">实时记录 / 趋势 / 追溯</tspan></text>
+</g>
+<rect x="110.0" y="470.0" width="1380.0" height="52.0" rx="8" fill="#ffffff" stroke="#27835d" stroke-width="2"/>
+<clipPath id="clip_23"><rect x="118.0" y="476.0" width="1364.0" height="40.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_23)">
+<text x="128.0" y="499.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="128.0" dy="0.0">EtherCAT 主站与总线</tspan></text>
+</g>
+<rect x="115.0" y="570.0" width="210.0" height="100.0" rx="8" fill="#eef2ff" stroke="#5661c9" stroke-width="2"/>
+<clipPath id="clip_24"><rect x="123.0" y="576.0" width="194.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_24)">
+<text x="133.0" y="599.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="133.0" dy="0.0">AX8206 #1</tspan></text>
+<text x="133.0" y="623.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="133.0" dy="0.0">双通道轴模块</tspan><tspan x="133.0" dy="16.6">原稿型号：AX8620</tspan><tspan x="133.0" dy="16.6">控制 2 轴 / STO / BISS-C</tspan></text>
+</g>
+<rect x="350.0" y="570.0" width="210.0" height="100.0" rx="8" fill="#eef2ff" stroke="#5661c9" stroke-width="2"/>
+<clipPath id="clip_25"><rect x="358.0" y="576.0" width="194.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_25)">
+<text x="368.0" y="599.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="368.0" dy="0.0">AX8206 #2</tspan></text>
+<text x="368.0" y="623.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="368.0" dy="0.0">双通道轴模块</tspan><tspan x="368.0" dy="16.6">原稿型号：AX8620</tspan><tspan x="368.0" dy="16.6">控制 2 轴 / STO / BISS-C</tspan></text>
+</g>
+<rect x="595.0" y="560.0" width="230.0" height="120.0" rx="8" fill="#fff0f0" stroke="#c23b3b" stroke-width="2"/>
+<clipPath id="clip_26"><rect x="603.0" y="566.0" width="214.0" height="108.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_26)">
+<text x="613.0" y="589.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="613.0" dy="0.0">安全 PLC</tspan></text>
+<text x="613.0" y="613.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="613.0" dy="0.0">EL6900 + EL1904</tspan><tspan x="613.0" dy="16.6">安全限位 ×8</tspan><tspan x="613.0" dy="16.6">柜门急停 / 手持急停</tspan></text>
+</g>
+<rect x="855.0" y="570.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#5c8f72" stroke-width="2"/>
+<clipPath id="clip_27"><rect x="863.0" y="576.0" width="134.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_27)">
+<text x="873.0" y="599.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="873.0" dy="0.0">EL1808</tspan></text>
+<text x="873.0" y="623.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="873.0" dy="0.0">数字量输入</tspan><tspan x="873.0" dy="16.6">限位开关 ×8</tspan></text>
+</g>
+<rect x="1025.0" y="570.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#5c8f72" stroke-width="2"/>
+<clipPath id="clip_28"><rect x="1033.0" y="576.0" width="134.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_28)">
+<text x="1043.0" y="599.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="1043.0" dy="0.0">EL3124</tspan></text>
+<text x="1043.0" y="623.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="1043.0" dy="0.0">模拟量输入</tspan><tspan x="1043.0" dy="16.6">倾角传感器 ×2</tspan></text>
+</g>
+<rect x="1195.0" y="570.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#5c8f72" stroke-width="2"/>
+<clipPath id="clip_29"><rect x="1203.0" y="576.0" width="134.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_29)">
+<text x="1213.0" y="599.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="1213.0" dy="0.0">EL3202</tspan></text>
+<text x="1213.0" y="623.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="1213.0" dy="0.0">温度输入</tspan><tspan x="1213.0" dy="16.6">PT100 多路</tspan></text>
+</g>
+<rect x="1365.0" y="570.0" width="125.0" height="100.0" rx="8" fill="#ffffff" stroke="#5c8f72" stroke-width="2"/>
+<clipPath id="clip_30"><rect x="1373.0" y="576.0" width="109.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_30)">
+<text x="1383.0" y="599.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="1383.0" dy="0.0">EL2808</tspan></text>
+<text x="1383.0" y="623.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="1383.0" dy="0.0">数字量输出</tspan><tspan x="1383.0" dy="16.6">柜门指示灯等</tspan></text>
+</g>
+<rect x="115.0" y="815.0" width="210.0" height="110.0" rx="8" fill="#ffffff" stroke="#b87324" stroke-width="2"/>
+<clipPath id="clip_31"><rect x="123.0" y="821.0" width="194.0" height="98.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_31)">
+<text x="133.0" y="844.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="133.0" dy="0.0">伺服电机 AX8062 ×4</tspan></text>
+<text x="133.0" y="868.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="133.0" dy="0.0">各配多圈绝对式编码器</tspan><tspan x="133.0" dy="16.6">接入驱动器电机接口</tspan></text>
+</g>
+<rect x="350.0" y="815.0" width="210.0" height="110.0" rx="8" fill="#ffffff" stroke="#b87324" stroke-width="2"/>
+<clipPath id="clip_32"><rect x="358.0" y="821.0" width="194.0" height="98.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_32)">
+<text x="368.0" y="844.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="368.0" dy="0.0">绝对式光栅尺 ×4</tspan></text>
+<text x="368.0" y="868.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="368.0" dy="0.0">BISS-C 协议</tspan><tspan x="368.0" dy="16.6">接入驱动器 BISS-C 接口</tspan><tspan x="368.0" dy="16.6">用于位置闭环</tspan></text>
+</g>
+<rect x="595.0" y="815.0" width="230.0" height="120.0" rx="8" fill="#fff0f0" stroke="#c23b3b" stroke-width="2"/>
+<clipPath id="clip_33"><rect x="603.0" y="821.0" width="214.0" height="108.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_33)">
+<text x="613.0" y="844.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="613.0" dy="0.0">安全输入设备</tspan></text>
+<text x="613.0" y="868.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="613.0" dy="0.0">安全限位 ×8</tspan><tspan x="613.0" dy="16.6">柜门急停按钮</tspan><tspan x="613.0" dy="16.6">手持急停按钮</tspan></text>
+</g>
+<rect x="855.0" y="815.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#b87324" stroke-width="2"/>
+<clipPath id="clip_34"><rect x="863.0" y="821.0" width="134.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_34)">
+<text x="873.0" y="844.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="873.0" dy="0.0">限位开关 ×8</tspan></text>
+<text x="873.0" y="868.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="873.0" dy="0.0">接入 EL1808</tspan></text>
+</g>
+<rect x="1025.0" y="815.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#b87324" stroke-width="2"/>
+<clipPath id="clip_35"><rect x="1033.0" y="821.0" width="134.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_35)">
+<text x="1043.0" y="844.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="1043.0" dy="0.0">倾角传感器 ×2</tspan></text>
+<text x="1043.0" y="868.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="1043.0" dy="0.0">上梁 / 下梁</tspan><tspan x="1043.0" dy="16.6">值参与联锁</tspan></text>
+</g>
+<rect x="1195.0" y="815.0" width="150.0" height="100.0" rx="8" fill="#ffffff" stroke="#b87324" stroke-width="2"/>
+<clipPath id="clip_36"><rect x="1203.0" y="821.0" width="134.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_36)">
+<text x="1213.0" y="844.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="1213.0" dy="0.0">PT100 铂电阻</tspan></text>
+<text x="1213.0" y="868.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="1213.0" dy="0.0">多路温度监控</tspan></text>
+</g>
+<rect x="1365.0" y="815.0" width="125.0" height="100.0" rx="8" fill="#ffffff" stroke="#b87324" stroke-width="2"/>
+<clipPath id="clip_37"><rect x="1373.0" y="821.0" width="109.0" height="88.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_37)">
+<text x="1383.0" y="844.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="1383.0" dy="0.0">柜门指示灯等</tspan></text>
+<text x="1383.0" y="868.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="1383.0" dy="0.0">数字输出负载</tspan></text>
+</g>
+<rect x="895.0" y="920.0" width="500.0" height="95.0" rx="8" fill="#fff9d9" stroke="#c89f2d" stroke-width="2"/>
+<clipPath id="clip_38"><rect x="903.0" y="926.0" width="484.0" height="83.0" rx="8"/></clipPath>
+<g clip-path="url(#clip_38)">
+<text x="913.0" y="949.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="18.0" font-weight="700" fill="#162033" text-anchor="start"><tspan x="913.0" dy="0.0">工程备注</tspan></text>
+<text x="913.0" y="973.0" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="13.0" font-weight="400" fill="#334155" text-anchor="start"><tspan x="913.0" dy="0.0">AX8620 官方为电源模块，双轴驱动按 AX8206 表达。</tspan><tspan x="913.0" dy="16.6">倾角量参与安全联锁时，应确认实际安全链路/认证等级。</tspan></text>
+</g>
+</svg>

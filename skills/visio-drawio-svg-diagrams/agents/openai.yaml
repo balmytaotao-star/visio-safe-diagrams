@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visio Draw.io SVG Diagrams"
+  short_description: "Create Visio-safe draw.io and SVG diagrams."
+  default_prompt: "Use -drawio-svg-diagrams to create or repair a Visio-compatible draw.io/SVG architecture diagram."
