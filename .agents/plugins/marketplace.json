@@ -1,7 +1,7 @@
 {
   "name": "visio-safe-diagrams",
   "interface": {
-    "displayName": "Visio Safe Diagrams"
+    "displayName": "Visio 安全图纸 / Visio Safe Diagrams"
   },
   "plugins": [
     {

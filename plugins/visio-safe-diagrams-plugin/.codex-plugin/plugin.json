@@ -1,7 +1,7 @@
 {
   "name": "visio-safe-diagrams-plugin",
-  "version": "1.0.0",
-  "description": "Create and repair Visio-safe draw.io and SVG architecture diagrams.",
+  "version": "1.0.1",
+  "description": "创建和修复可安全导入 Visio 的 draw.io 与 SVG 架构图。",
   "author": {
     "name": "balmytaotao-star",
     "url": "https://github.com/balmytaotao-star"
@@ -18,9 +18,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Visio Safe Diagrams",
-    "shortDescription": "Create Visio-safe draw.io and SVG diagrams.",
-    "longDescription": "A Codex plugin and skill for creating, repairing, and validating architecture diagrams that open cleanly in draw.io and import into Microsoft Visio. It includes guidance for avoiding draw.io atob errors, fixed connector routing, and SVG text overflow, plus a deterministic draw.io to SVG converter.",
+    "displayName": "Visio 安全图纸 / Visio Safe Diagrams",
+    "shortDescription": "创建可安全导入 Visio 的 draw.io 和 SVG 架构图。",
+    "longDescription": "一个用于创建、修复和验证架构图的 Codex 插件与技能，重点解决 draw.io atob 报错、连接线错位、SVG 文字溢出，以及导入 Microsoft Visio 失败等问题，并附带稳定的 draw.io 转 SVG 脚本。",
     "developerName": "balmytaotao-star",
     "category": "Productivity",
     "capabilities": [
@@ -28,9 +28,9 @@
     ],
     "websiteURL": "https://github.com/balmytaotao-star/visio-safe-diagrams",
     "defaultPrompt": [
-      "Repair this draw.io/SVG diagram for Visio import.",
-      "Create a Visio-safe architecture diagram.",
-      "Convert this draw.io file to Visio-friendly SVG."
+      "修复这个 draw.io/SVG 图纸，让它能导入 Visio。",
+      "创建一个 Visio 安全的架构图。",
+      "把这个 draw.io 文件转换成 Visio 友好的 SVG。"
     ],
     "brandColor": "#20825D"
   }

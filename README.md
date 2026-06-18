@@ -1,4 +1,4 @@
-# Visio Safe Diagrams
+# Visio 安全图纸 / Visio Safe Diagrams
 
 Generate draw.io and SVG architecture diagrams that are more likely to open cleanly in draw.io and import into Microsoft Visio.
 
@@ -17,7 +17,7 @@ This repository also acts as a Codex plugin marketplace source.
 codex plugin marketplace add balmytaotao-star/visio-safe-diagrams
 ```
 
-Then open the Codex plugin directory, choose the "Visio Safe Diagrams" marketplace source, and install "Visio Safe Diagrams".
+Then open the Codex plugin directory, choose the "Visio 安全图纸 / Visio Safe Diagrams" marketplace source, and install "Visio 安全图纸 / Visio Safe Diagrams".
 
 If your Codex surface does not support plugin installation yet, copy the skill folder directly:
 

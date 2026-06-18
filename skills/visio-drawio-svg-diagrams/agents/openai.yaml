@@ -1,4 +1,4 @@
 interface:
-  display_name: "Visio Draw.io SVG Diagrams"
-  short_description: "Create Visio-safe draw.io and SVG diagrams."
+  display_name: "Visio 安全图纸 / Visio Draw.io SVG Diagrams"
+  short_description: "创建可安全导入 Visio 的 draw.io 和 SVG 架构图。"
   default_prompt: "Use $visio-drawio-svg-diagrams to create or repair a Visio-compatible draw.io/SVG architecture diagram."
